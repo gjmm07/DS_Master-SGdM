@@ -159,7 +159,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 # exclude everything
-sample_data/*
+Data/*
 
-# exception to the rule
-!sample_data/.gitkeep 
