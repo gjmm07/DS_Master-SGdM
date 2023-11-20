@@ -40,7 +40,7 @@ class RealDataBenfordLaw:
 
 
 if __name__ == "__main__":
-    df = pd.read_csv(os.path.join("sample_data", "BigCityGermany.csv"))
+    df = pd.read_csv(os.path.join("Data", "BigCityGermany.csv"))
     bl = RealDataBenfordLaw(df["2010"].to_numpy())
     print(bl.get_distribution_at_index(1))
 

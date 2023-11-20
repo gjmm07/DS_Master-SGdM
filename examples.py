@@ -30,7 +30,7 @@ def plot(handler, title: str=None):
 
 
 if __name__ == "__main__":
-    df = pd.read_csv(os.path.join("sample_data", "worldcitiespop.csv"))
+    df = pd.read_csv(os.path.join("Data", "worldcitiespop.csv"))
     data = df["Population"].to_numpy()
     data = data[~np.isnan(data)]
     data = data[data > 10]

@@ -5,7 +5,7 @@ Benford's Law im Model Spezielle Gebiete der Mathematik
 
 
 
-Download data from here and include into sample_data: https://www.kaggle.com/datasets/max-mind/world-cities-database
+Download data from here and include into Data folder: https://www.kaggle.com/datasets/max-mind/world-cities-database
 
 
 
