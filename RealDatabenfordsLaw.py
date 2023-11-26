@@ -6,7 +6,7 @@ import warnings
 
 
 class RealDataBenfordLaw:
-    # Expect the data to be in the 10-positional system
+    # Expects the data to be in the 10-positional system
     # todo: implement other systems?
     # todo: implement pre checks such as standard deviation etc.
 
@@ -39,6 +39,7 @@ class RealDataBenfordLaw:
 
     def check_dispersion(self):
         dispersion = np.max(np.vectorize(len)(self.data)) - np.min(np.vectorize(len)(self.data))
+        print(dispersion)
         if dispersion < 5:
             warnings.warn("Dispersion not high enough")
         else:
